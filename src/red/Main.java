@@ -24,7 +24,7 @@ public class Main {
 			entrada.add(Integer.parseInt(aux));
 		}
 		
-		RedNeuronal redEstandar0 = new RedNeuronal("DNI.net", true, false);
+		RedNeuronal redEstandar0 = new RedNeuronal("DNI.net", true);
 		double salida = redEstandar0.Calcular(entrada);
 		int letra = (int) salida;
 		
